@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-const title = 'Sawa Component Test';
+const title = 'My Minimal React Webpack Babel Setup';
 
 ReactDOM.render(
   <App title={title} />,

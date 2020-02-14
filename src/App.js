@@ -1,7 +1,6 @@
 import React from 'react';
-import NameTag from './NameTag';
 
-const App = () =>
-  <NameTag name="Luke" color="red"></NameTag>
+const App = ({ title }) =>
+  <div>{title}</div>;
 
 export default App;
